@@ -10,3 +10,10 @@ idioms = {
     "Sheep": ["Pulled", "the", "wool", "over", "his", "eyes"],
     "Lucifer": ["Speak", "of", "the", "devil"],
 }
+
+
+for idiom in idioms:
+  joiner = " " 
+  conjoined_idiom=joiner.join(idioms[idiom])
+  
+  print(conjoined_idiom)
