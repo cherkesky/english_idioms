@@ -16,4 +16,4 @@ for idiom in idioms:
   joiner = " " 
   conjoined_idiom=joiner.join(idioms[idiom])
   
-  print(conjoined_idiom)
+  print(idiom,":", conjoined_idiom)
